@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索 - 日韩精选视频-精选影片片单-高清视频在线播放</title>
+    <meta name="description" content="按影片标题、地区、类型、年份、题材和标签搜索精选视频内容。">
+    <meta name="keywords" content="影片搜索,日韩精选视频,精选影片片单,日韩视频,高清播放,热门视频,视频合集,高清内容">
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="影片搜索 - 日韩精选视频-精选影片片单-高清视频在线播放">
+    <meta property="og:description" content="按影片标题、地区、类型、年份、题材和标签搜索精选视频内容。">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="site-logo" href="./index.html" aria-label="日韩精选">
+            <span>日韩精选</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="./index.html">首页</a>
+            <a class="nav-link" href="./category/rihan.html">日韩精选</a>
+            <a class="nav-link" href="./category/movie.html">电影</a>
+            <a class="nav-link" href="./category/series.html">剧集</a>
+            <a class="nav-link" href="./category/animation.html">动画</a>
+            <a class="nav-link" href="./rank.html">排行榜</a>
+            <a class="nav-link" href="./category/all.html">全部片库</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-search-form>
+            <input type="search" name="q" placeholder="搜索片名、类型、标签" aria-label="搜索影片">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" data-menu-button aria-label="展开导航">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+        <form class="mobile-search" action="./search.html" method="get" data-search-form>
+            <input type="search" name="q" placeholder="搜索片名、类型、标签" aria-label="搜索影片">
+            <button type="submit">搜索</button>
+        </form>
+        <nav aria-label="移动端导航">
+            <a class="mobile-link" href="./index.html">首页</a>
+            <a class="mobile-link" href="./category/rihan.html">日韩精选</a>
+            <a class="mobile-link" href="./category/movie.html">电影</a>
+            <a class="mobile-link" href="./category/series.html">剧集</a>
+            <a class="mobile-link" href="./category/animation.html">动画</a>
+            <a class="mobile-link" href="./rank.html">排行榜</a>
+            <a class="mobile-link" href="./category/all.html">全部片库</a>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="page-hero small-hero">
+        <div class="page-hero-inner">
+            <nav class="crumbs" aria-label="面包屑">
+                <a href="./index.html">首页</a>
+                <span>›</span>
+                <span>搜索</span>
+            </nav>
+            <h1>影片搜索</h1>
+            <p>输入片名、地区、类型、年份或标签，快速进入对应详情页。</p>
+            <form class="wide-search" action="./search.html" method="get" data-search-form>
+                <input type="search" name="q" placeholder="例如：日本、悬疑、爱情、2025" aria-label="搜索影片">
+                <button type="submit">搜索</button>
+            </form>
+        </div>
+    </section>
+    <div class="page-shell">
+        <section class="content-section">
+            <div class="section-head">
+                <h2 data-search-title>搜索结果</h2>
+            </div>
+            <div class="movie-grid" id="searchResults"></div>
+            <div class="empty-state" data-empty-state hidden>
+                <h2>没有找到相关影片</h2>
+                <p>可以更换关键词，或从分类片单继续浏览。</p>
+                <a class="primary-button" href="./category/all.html">浏览全部片库</a>
+            </div>
+        </section>
+    </div>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <a class="footer-logo" href="./index.html">日韩精选</a>
+            <p>精选日韩视频内容，覆盖不同题材和栏目片单，适合按分类浏览。</p>
+        </div>
+        <div class="footer-links">
+            <a href="./category/rihan.html">日韩精选</a>
+            <a href="./category/movie.html">电影片库</a>
+            <a href="./category/series.html">热门剧集</a>
+            <a href="./rank.html">热门排行榜</a>
+        </div>
+    </div>
+</footer>
+    <script src="./assets/search-index.js" defer></script>
+    <script src="./assets/site.js" defer></script>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

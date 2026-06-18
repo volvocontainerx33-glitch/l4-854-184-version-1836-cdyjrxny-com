@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-亚洲最新电影-最新影片合集-高清电影在线播放</title>
+    <meta name="description" content="搜索亚洲最新电影、热门影片合集、高清电影在线播放内容。">
+    <meta name="keywords" content="影片搜索,亚洲最新电影,最新影片合集,亚洲电影,高清在线播放,电影更新,热门电影">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a class="site-logo" href="./index.html" aria-label="亚洲电影">
+                <span>亚洲电影</span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a class="nav-link" href="./index.html">首页</a>
+                <a class="nav-link" href="./categories.html">分类</a>
+                <a class="nav-link" href="./rankings.html">排行榜</a>
+                <a class="nav-link is-active" href="./search.html">搜索</a>
+                <a class="nav-link" href="./category-latest-movies.html">最新电影</a>
+                <a class="nav-link" href="./category-asian-cinema.html">亚洲电影</a>
+                <a class="nav-link" href="./category-drama-romance.html">剧情爱情</a>
+                <a class="nav-link" href="./category-action-adventure.html">动作冒险</a>
+            </nav>
+            <form class="header-search" action="./search.html" method="get">
+                <label class="screen-reader" for="header-search-input">搜索影片</label>
+                <input id="header-search-input" name="q" type="search" placeholder="搜索影片...">
+            </form>
+            <button class="mobile-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav" aria-label="移动端导航">
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类</a>
+            <a href="./rankings.html">排行榜</a>
+            <a href="./search.html">搜索</a>
+            <a href="./category-latest-movies.html">最新电影</a>
+            <a href="./category-asian-cinema.html">亚洲电影</a>
+            <form action="./search.html" method="get">
+                <input name="q" type="search" placeholder="搜索影片...">
+            </form>
+        </nav>
+    </header>
+    <main class="site-main page-top">
+        <section class="site-container page-hero search-hero">
+            <span>Search</span>
+            <h1>影片搜索</h1>
+            <p>输入片名、地区、年份、类型、题材标签，即可快速定位影片详情页。</p>
+            <form class="search-page-form" action="./search.html" method="get">
+                <label class="screen-reader" for="global-search-input">搜索影片</label>
+                <input id="global-search-input" name="q" type="search" placeholder="搜索亚洲电影、最新影片、高清在线播放...">
+                <button type="submit">搜索</button>
+            </form>
+        </section>
+        <section class="site-container section-block">
+            <div id="global-search-results" class="search-results"></div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="site-container footer-grid">
+            <div>
+                <a class="footer-logo" href="./index.html">亚洲电影</a>
+                <p>整理亚洲最新电影内容，关注近期更新和热门题材，提供清晰片库分类。</p>
+            </div>
+            <div>
+                <h2>片库导航</h2>
+                <ul>
+                    <li><a href="./category-latest-movies.html">最新电影</a></li>
+                    <li><a href="./category-asian-cinema.html">亚洲电影</a></li>
+                    <li><a href="./category-drama-romance.html">剧情爱情</a></li>
+                    <li><a href="./category-action-adventure.html">动作冒险</a></li>
+                    <li><a href="./category-suspense-thriller.html">悬疑惊悚</a></li>
+                    <li><a href="./category-animation-variety.html">动画综艺</a></li>
+                    <li><a href="./category-euro-american.html">欧美影片</a></li>
+                    <li><a href="./category-series-special.html">剧集专题</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>热门入口</h2>
+                <ul>
+                    <li><a href="./rankings.html">热度排行榜</a></li>
+                    <li><a href="./search.html">影片搜索</a></li>
+                    <li><a href="./categories.html">全部分类</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/site.js"></script>
+    <script src="./assets/js/search-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
